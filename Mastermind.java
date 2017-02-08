@@ -9,15 +9,9 @@
 
 public class Mastermind {
 	
-	public enum Colors{
-		RED, BLUE, YELLOW, GREEN, CYAN, PURPLE, ORANGE, GREY;
-	}
+	public String[] colors = {"RED", "BLUE", "YELLOW", "GREEN", "CYAN", "PURPLE", "ORANGE", "GREY"};
 
-	public enum Responses{
-		BLACK,WHITE,WRONG;
-	}
-	
-	public Responses[] respArr = {Responses.WRONG,Responses.WHITE, Responses.BLACK};
+	public String[] responses = {"BLACK", "WHITE", "WRONG"};
 	
 	public Mastermind(String[] tokencolors, int positions) {
 	   
