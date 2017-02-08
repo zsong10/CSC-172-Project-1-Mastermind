@@ -14,8 +14,10 @@ public class Mastermind {
 	}
 
 	public enum Responses{
-		BLACK,WHITE;
+		BLACK,WHITE,WRONG;
 	}
+	
+	public Responses[] respArr = {Responses.WRONG,Responses.WHITE, Responses.BLACK};
 	
 	public Mastermind(String[] tokencolors, int positions) {
 	   
