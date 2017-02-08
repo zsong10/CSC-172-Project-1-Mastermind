@@ -13,6 +13,10 @@ public class Mastermind {
 		RED, BLUE, YELLOW, GREEN, CYAN, PURPLE, ORANGE, GREY;
 	}
 
+	public enum Responses{
+		BLACK,WHITE;
+	}
+	
 	public Mastermind(String[] tokencolors, int positions) {
 	   
 	}
